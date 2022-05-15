@@ -1,0 +1,69 @@
+{
+  "events": [
+    {
+      "id": "1",
+      "event": "June Book Club 2022",
+      "slug": "june-bookclub",
+      "venue": "Online",
+      "address": "PO Box 452, Henderson, CO 80640",
+      "details": "The Hitchhiker’s Guide to the Galaxy - by Douglas Adams (1979)",
+      "link": "TBD",
+      "date": "July 6, 2022",
+      "time": "8:00 PM EST",
+      "description": "Seconds before the Earth is demolished to make way for a galactic freeway, Arthur Dent is plucked off the planet by his friend Ford Prefect, a researcher for the revised edition of The Hitchhiker's Guide to the Galaxy who, for the last 15 years, has been posing as an out-of-work actor. Together this dynamic pair begin a journey through space aided by quotes from The Hitchhiker's Guide ('A towel is about the most massively useful thing an interstellar hitchhiker can have.') and a galaxy full of fellow travelers: Zaphod Beeblebrox, the two-headed, three-armed ex-hippie and totally out-to-lunch president of the galaxy; Trillian, Zaphod's girlfriend (formally Tricia McMillan), whom Arthur tried to pick up at a cocktail party once upon a time zone; Marvin, a paranoid, brilliant, and chronically depressed robot; and Veet Voojagig, a former graduate student who is obsessed with the disappearance of all the ballpoint pens he bought over the years. Where are these pens? Why are we born? Why do we die? Why do we spend so much time in between wearing digital watches? For all the answers stick your thumb to the stars. And don't forget to bring a towel!",
+      "image": "/images/1.png"
+    },
+    {
+      "id": "2",
+      "event": "July Book Club 2022",
+      "slug": "july-bookclub",
+      "venue": "Online",
+      "address": "PO Box 452, Henderson, CO 80640",
+      "details": "The Origin of Satan: How Christians Demonized Jews, Pagans and Heretics by Elaine Pagels (1995)",
+      "link": "TBD",
+      "date": "August 3, 2022",
+      "time": "8:00 PM EST",
+      "description": "Who is Satan in the New Testament, and what is the evil that he represents? In this groundbreaking book, Elaine Pagels, Princeton's distinguished historian of religion, traces the evolution of Satan from its origins in the Hebrew Bible, where Satan is at first merely obstructive, to the New Testament, where Satan becomes the Prince of Darkness, the bitter enemy of God and man, evil incarnate. In The Origin of Satan, Pagels shows that the four Christian gospels tell two very different stories. The first is the story of Jesus' moral genius: his lessons of love, forgiveness, and redemption. The second tells of the bitter conflict between the followers of Jesus and their fellow Jews, a conflict in which the writers of the four gospels condemned as creatures of Satan those Jews who refused to worship Jesus as the Messiah. Writing during and just after the Jewish war against Rome, the evangelists invoked Satan to portray their Jewish enemies as God's enemies too. As Pagels then shows, the church later turned this satanic indictment against its Roman enemies, declaring that pagans and infidels were also creatures of Satan, and against its own dissenters, calling them heretics and ascribing their heterodox views to satanic influences.",
+      "image": "/images/2.png"
+    },
+    {
+      "id": "3",
+      "event": "August Book Club 2022",
+      "slug": "august-bookclub",
+      "venue": "Online",
+      "address": "PO Box 452, Henderson, CO 80640",
+      "performers": "Hurts So Good: The Science and Culture of Pain on Purpose by Leigh Cowart (2021)",
+      "link": "TBD",
+      "date": "September 7, 2022",
+      "time": "8:00 PM EST",
+      "details": "An exploration of why people all over the world love to engage in pain on purpose - from dominatrices, religious ascetics, and ultramarathoners to ballerinas, icy ocean bathers, and sideshow performers.",
+      "image": "/images/4.png"
+    },
+    {
+      "id": "4",
+      "event": "September Book Club 2022",
+      "slug": "september-bookclub",
+      "venue": "Online",
+      "address": "PO Box 452, Henderson, CO 80640",
+      "performers": "Memnoch the Devil by Anne Rice (1995)",
+      "link": "TBD",
+      "date": "October 5, 2022",
+      "time": "8:00 PM EST",
+      "details": "Like Interview with the Vampire, Memnoch has a half-maddened, fever-pitch intensity. . . . Narrated by Rice's most cherished character, the vampire Lestat, Memnoch tells a tale as old as Scripture's legends and as modern as today's religious strife.'(Rolling Stone)'",
+      "image": "/images/5.png"
+    },
+    {
+      "id": "5",
+      "event": "October Book Club 2022",
+      "slug": "october-bookclub",
+      "venue": "Online",
+      "address": "PO Box 452, Henderson, CO 80640",
+      "details": "Yours Cruelly, Elvira: Memoirs of the Mistress of the Dark by Cassandra Peterson (2021)",
+      "link": "TBD",
+      "date": "November 2, 2022",
+      "time": "8:00 PM EST",
+      "description": "The woman behind the icon known as Elvira, Mistress of the Dark, the undisputed Queen of Halloween, reveals her full story, filled with intimate bombshells - and told by the bombshell herself.",
+      "image": "/images/6.png"
+    }
+  ]
+}
