@@ -1,0 +1,14 @@
+.error {
+  color: red;
+  text-align: center;
+  margin: 100px 0 1px;
+}
+
+.errorText {
+  text-align: center;
+  margin: 1px 0 200px;
+}
+
+.error h1 {
+  font-size: 100px;
+}
