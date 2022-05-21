@@ -2,7 +2,7 @@
   "events": [
     {
       "id": "1",
-      "event": "June Book Club 2022",
+      "name": "June Book Club 2022",
       "slug": "june-bookclub",
       "venue": "Online",
       "address": "PO Box 452, Henderson, CO 80640",
@@ -32,11 +32,11 @@
       "slug": "august-bookclub",
       "venue": "Online",
       "address": "PO Box 452, Henderson, CO 80640",
-      "performers": "Hurts So Good: The Science and Culture of Pain on Purpose by Leigh Cowart (2021)",
+      "details": "Hurts So Good: The Science and Culture of Pain on Purpose by Leigh Cowart (2021)",
       "link": "TBD",
       "date": "September 7, 2022",
       "time": "8:00 PM EST",
-      "details": "An exploration of why people all over the world love to engage in pain on purpose - from dominatrices, religious ascetics, and ultramarathoners to ballerinas, icy ocean bathers, and sideshow performers.",
+      "description": "An exploration of why people all over the world love to engage in pain on purpose - from dominatrices, religious ascetics, and ultramarathoners to ballerinas, icy ocean bathers, and sideshow performers.",
       "image": "/images/4.png"
     },
     {
@@ -45,11 +45,11 @@
       "slug": "september-bookclub",
       "venue": "Online",
       "address": "PO Box 452, Henderson, CO 80640",
-      "performers": "Memnoch the Devil by Anne Rice (1995)",
+      "details": "Memnoch the Devil by Anne Rice (1995)",
       "link": "TBD",
       "date": "October 5, 2022",
       "time": "8:00 PM EST",
-      "details": "Like Interview with the Vampire, Memnoch has a half-maddened, fever-pitch intensity. . . . Narrated by Rice's most cherished character, the vampire Lestat, Memnoch tells a tale as old as Scripture's legends and as modern as today's religious strife.'(Rolling Stone)'",
+      "description": "Like Interview with the Vampire, Memnoch has a half-maddened, fever-pitch intensity. . . . Narrated by Rice's most cherished character, the vampire Lestat, Memnoch tells a tale as old as Scripture's legends and as modern as today's religious strife.'(Rolling Stone)'",
       "image": "/images/5.png"
     },
     {

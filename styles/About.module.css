@@ -1,0 +1,17 @@
+.container {
+  margin: 60px auto;
+  max-width: 960px;
+  padding: 0 30px;
+  text-align: center;
+}
+
+.h3 {
+  color: red;
+  font-size: medium;
+  margin-bottom: 20px;
+}
+
+.p2 {
+  font-size: medium;
+  color: grey;
+}
