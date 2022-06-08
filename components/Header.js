@@ -18,14 +18,14 @@ export default function Header() {
       <Search />
       <nav>
         <ul>
-          <li>
-            <Link href='/events'>
-              <a>Events</a>
-            </Link>
-          </li>
           {user ? (
             // If logged in
             <>
+              <li>
+                <Link href='/events'>
+                  <a>Events</a>
+                </Link>
+              </li>
               <li>
                 <Link href='/events/add'>
                   <a>Add Event</a>
@@ -48,6 +48,9 @@ export default function Header() {
           ) : (
             // If logged out
             <>
+              <li>
+                <Link href='/about'>About</Link>
+              </li>
               <li>
                 <Link href='/account/login'>
                   <a className='btn-secondary btn-icon'>

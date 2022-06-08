@@ -16,6 +16,15 @@
   flex: 2;
 }
 
+.btn {
+  font-size: medium;
+  margin-bottom: 20px;
+}
+
+.view {
+  text-align: center;
+}
+
 @media (max-width: 600px) {
   .event {
     flex-direction: column;

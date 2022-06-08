@@ -1,8 +1,13 @@
 import Link from 'next/link'
+import { FaSignInAlt } from 'react-icons/fa'
+import { useContext } from 'react'
 import Image from 'next/image'
+import AuthContext from '@/context/AuthContext'
 import styles from '@/styles/EventItem.module.css'
 
 export default function EventItem({ evt }) {
+  const { user } = useContext(AuthContext)
+
   return (
     <div className={styles.event}>
       <div className={styles.img}>
@@ -23,11 +28,27 @@ export default function EventItem({ evt }) {
         </span>
         <h3>{evt.name}</h3>
       </div>
-      <div className={styles.link}>
-        <Link href={`/events/${evt.slug}`}>
-          <a className='btn'>Details</a>
-        </Link>
-      </div>
+      <ul>
+        {user ? (
+          // If logged in
+          <>
+            <div className={styles.link}>
+              <Link href={`/events/${evt.slug}`}>
+                <a className='btn'>Details</a>
+              </Link>
+            </div>
+          </>
+        ) : (
+          // If logged out
+          <>
+            <Link href='/account/login'>
+              <a className='btn-secondary btn-icon'>
+                <FaSignInAlt /> Login to View
+              </a>
+            </Link>
+          </>
+        )}
+      </ul>
     </div>
   )
 }

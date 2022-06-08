@@ -2,6 +2,7 @@ import moment from 'moment'
 import { FaImage } from 'react-icons/fa'
 import { ToastContainer, toast } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
+import { parseCookies } from '@/helpers/index'
 import { useState } from 'react'
 import { useRouter } from 'next/router'
 import Link from 'next/link'
@@ -12,7 +13,7 @@ import ImageUpload from '@/components/ImageUpload'
 import { API_URL } from '@/config/index'
 import styles from '@/styles/Form.module.css'
 
-export default function EditEventPage({ evt }) {
+export default function EditEventPage({ evt, token }) {
   const [values, setValues] = useState({
     name: evt.name,
     venue: evt.venue,
@@ -46,7 +47,7 @@ export default function EditEventPage({ evt }) {
       method: 'PUT',
       headers: {
         'Content-Type': 'application/json',
-        // Authorization: `Bearer ${token}`,
+        Authorization: `Bearer ${token}`,
       },
       body: JSON.stringify(values),
     })
@@ -189,7 +190,7 @@ export default function EditEventPage({ evt }) {
         <ImageUpload
           evtId={evt.id}
           imageUploaded={imageUploaded}
-          //token={token}
+          token={token}
         />
         Show
       </Modal>
@@ -198,7 +199,7 @@ export default function EditEventPage({ evt }) {
 }
 
 export async function getServerSideProps({ params: { id }, req }) {
-  //const { token } = parseCookies(req)
+  const { token } = parseCookies(req)
 
   const res = await fetch(`${API_URL}/events/${id}`)
   const evt = await res.json()
@@ -206,7 +207,7 @@ export async function getServerSideProps({ params: { id }, req }) {
   return {
     props: {
       evt,
-      // token,
+      token,
     },
   }
 }

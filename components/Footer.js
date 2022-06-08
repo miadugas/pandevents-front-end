@@ -6,13 +6,10 @@ export default function Footer() {
   return (
     <footer className={styles.footer}>
       <p className={styles.p2}>
-        These events are organized by The Satanic Temple Colorado and is not
+        These events are organized by The Satanic Temple Colorado and are not
         associated with The Satanic Temple global organization.
       </p>
-      <p className={styles.p2}>Copyright &copy; CongrEvents 2021</p>
-      <p className={styles.p2}>
-        <Link href='/about'>About This Project</Link>
-      </p>
+      <p className={styles.p2}>Copyright &copy; CongrEvents 2022</p>
     </footer>
   )
 }
